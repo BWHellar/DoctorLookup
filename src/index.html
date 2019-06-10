@@ -1,12 +1,31 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <script src="bundle.js" type="text/javascript" charset="utf-8"></script>
-    <title></title>
+    <script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="main.js"></script>
+    <title>Doctor Search</title>
   </head>
   <body>
+    <div class="container">
+      <h1>Doctor Search</h1>
+      <form id="doctorForm" autocomplete="off">
+        <div id="doctorArea">
+          <h3>Search Name</h3>
+          <label for="doctorSearch"></label>
+          <input type="text" id="doctorSearch" placeholder="Name Here">
+        </div>
+        <br>
+        <br>
+        <button type="submit">Submit</button>
+      </form>
+      <br>
+      <div>
+        <ul  id="resultsArea">
 
+        </ul>
+        <h3 id="errorField"></h3>
+      </div>
+    </div>
   </body>
 </html>
