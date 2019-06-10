@@ -4,7 +4,15 @@ import "./styles.css";
 import $ from "jquery";
 import { DoctorLookup } from "./DoctorLookup.js";
 
+
 $(document).ready(function(){
+
+  $("#loveDoc").submit(function(event) {
+    event.preventDefault();
+    $('body').prepend('<img src="https://media1.tenor.com/images/6c694726c00d5b526790878676273aab/tenor.gif?itemid=13369215"></img>')
+  });
+
+
   $("#doctorForm").submit(function(event) {
     event.preventDefault();
     $("#resultsArea").text("");
