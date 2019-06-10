@@ -76,6 +76,7 @@ $("#doctorForm").submit(function(event) {
 ## Known Bugs
 
 None
+Commit count is off by about half due ot Github push/pull issues
 
 ## Support and contact details
 
